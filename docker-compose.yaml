@@ -4,6 +4,7 @@ services:
     container_name: fastify_app
     ports:
       - "3005:3005"
+    network_mode: "host"
     environment:
       PORT: 3005
       DB_HOST: 127.0.0.1
