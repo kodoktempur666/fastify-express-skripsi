@@ -19,4 +19,4 @@ pool.on('connect', () => {
 
 })
 
-export default pool;s
+export default pool;
