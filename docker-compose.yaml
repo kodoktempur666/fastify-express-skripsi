@@ -2,6 +2,7 @@ services:
   fastify-app:
     build: ./fastify
     container_name: fastify-app
+    image: fastify-app:latest
     ports:
       - "3005:3005"
     network_mode: "host"
@@ -16,6 +17,7 @@ services:
   express-app:
     build: ./express
     container_name: express-app
+    image: express-app:latest
     ports:
       - "3000:3000"
     network_mode: "host"
