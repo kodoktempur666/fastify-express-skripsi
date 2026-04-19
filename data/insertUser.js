@@ -7,9 +7,9 @@ const { Pool } = pkg;
 // koneksi database
 const pool = new Pool({
   user: "postgres",
-  host: "localhost",
-  database: "your_db",
-  password: "your_password",
+  host: "127.0.0.1",
+  database: "mydb",
+  password: "psql",
   port: 5432,
 });
 
